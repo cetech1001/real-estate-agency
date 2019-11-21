@@ -2,30 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/home/includes/blog-posts.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/includes/featured-properties.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/includes/hero.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/includes/popular-cities.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/includes/promo.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/includes/trending-events.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/includes/trending-places.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/shared/auth-modal.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/shared/footer.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/shared/header.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/shared/menu.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/about/includes/about.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/about/includes/partners.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/about/includes/promo.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/about/includes/team.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/about/includes/testimonial.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/about/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/contact/includes/contact-form.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/contact/includes/contact-info.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/contact/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/faq/includes/buy.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/faq/includes/rent.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/faq/includes/terms-conditions.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/faq/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/add.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/includes/grid-view.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/includes/list-view.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/includes/listing-details.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/includes/listing-header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/includes/listing-sidebar.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/includes/sidebar.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/includes/similar-listings.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/includes/view-sort.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/listings/single.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/shared/breadcrumbs.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bin/www.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/lib/logger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/public/stylesheets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/routes/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/views/error.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/views/index.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/listings/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/shared/menu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/menu.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574331577840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modified home page and shared files">
+      <created>1574333451923</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574333451923</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +227,7 @@
     <MESSAGE value="Express App Setup" />
     <MESSAGE value="converted js files to ts and moved all code files into src folder" />
     <MESSAGE value="added asset files and home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added asset files and home page" />
+    <MESSAGE value="modified home page and shared files" />
+    <option name="LAST_COMMIT_MESSAGE" value="modified home page and shared files" />
   </component>
 </project>
