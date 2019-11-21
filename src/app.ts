@@ -8,6 +8,7 @@ import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
 
 import indexRouter from './routes';
+import logger from './lib/logger';
 
 const app = express();
 
@@ -25,6 +26,7 @@ app.use('/', indexRouter);
 
 // catch 404 and forward to error handler
 app.use((req: Request, res: Response, next: NextFunction) => {
+  res.render('error/404', { title: 'Page not found' });
   next(createError(404));
 });
 
@@ -33,10 +35,9 @@ app.use((err: HttpError, req: Request, res: Response) => {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
-
   // render the error page
   res.status(err.status || 500);
-  res.render('error');
+  res.render('error/404');
 });
 
 export default app;
