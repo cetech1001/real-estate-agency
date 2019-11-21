@@ -9,8 +9,8 @@
     "lint:fix": "eslint --fix . --ext .js,.jsx,.ts,.tsx",
     "build": "tsc && yarn run copyFiles",
     "copyFiles": "yarn run copyViewFiles && yarn run copyAssetFiles",
-    "copyViewFiles": "copyfiles -u 1 src/views/* src/views/**/* src/views/**/**/* src/views/**/**/**/* dist/",
-    "copyAssetFiles": "copyfiles -u 1 src/public/**/* dist/"
+    "copyViewFiles": "copyfiles -u 1 src/views/**/**/**/**/**/* dist/",
+    "copyAssetFiles": "copyfiles -u 1 src/public/**/**/* dist/"
   },
   "dependencies": {
     "@types/bunyan": "^1.8.6",

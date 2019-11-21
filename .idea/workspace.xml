@@ -2,200 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-brands-400d41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-regular-400d41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/fa-solid-900d41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/ionicons28b5.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/ionicons28b5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/ionicons28b5.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/fonts/ionicons28b5.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agency_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agency_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agency_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agency_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agent_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agent_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agent_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agent_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agent_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agent_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agent_min_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agent_min_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/agent_min_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/company_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/company_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/company_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/company_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/agents/company_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/bg/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/bg/bg_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/bg/call-to-action-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/bg/category-bg-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/bg/map-bg-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/bg/property-vid.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/blog/news_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/blog/news_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/blog/news_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/blog/news_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/blog/news_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/blog/news_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/blog/news_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/blog/news_88.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/blog/news_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/breadcrumb/breadcrumb_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/category/apartment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/category/condo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/category/customer_support.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/category/deal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/category/deal_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/category/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/category/pin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/category/property_listing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/category/rent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/category/villa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/dashboard/agent_db_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/dashboard/bar-chart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/dashboard/client_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/dashboard/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/dashboard/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/dashboard/property-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/dashboard/property-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/dashboard/property-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/dashboard/review.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featured/featured_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featured/featured_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featured/featured_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featured/featured_19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featured/featured_20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featured/featured_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featured/featured_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featured/featured_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featured/featured_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/featured/featured_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/header_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/header_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/header_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/header_23.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/header_23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/hero_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/hero_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/hero_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/hero_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/hero_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/home-video-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/header/slider-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/logo-blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/logo-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/others/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/others/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/others/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/others/client_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/others/client_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/others/client_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/others/client_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/others/client_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/others/login-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/partners/partner_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/partners/partner_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/partners/partner_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/partners/partner_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/partners/partner_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/partners/partner_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/partners/partner_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/places/place_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/preloader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property-file/demo.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property-file/plan-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property-file/plan-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/Property-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/property/property_val.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/agency_bg_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/bathroom_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/bedroom_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/garage_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/kitchen_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/playground_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/room_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/shopping-mall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/smart-home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-agency/village_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property-vid-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_header_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/single-listing/property_view_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/testimonial/testimonial-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/testimonial/testimonial-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/images/testimonial/testimonial-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/infobox.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/leaflet-autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/leaflet-control-geocoder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/leaflet-custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/leaflet-gesture-handling.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/leaflet-markercluster.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/leaflet.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/maps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/markerclusterer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/javascripts/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/stylesheets/dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/stylesheets/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/public/stylesheets/plugin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/home/includes/blog-posts.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/home/includes/featured-properties.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/home/includes/hero.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/home/includes/popular-cities.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/home/includes/promo.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/home/includes/trending-events.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/home/includes/trending-places.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/home/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/shared/auth-modal.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/shared/footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/shared/header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/shared/menu.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/bin/www.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/lib/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/views/error.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/views/index.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/index.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -246,7 +75,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Documents\Work\real-estate\node_modules\prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="com.eslint.settings.ESLintSettingsPage" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
@@ -254,6 +83,7 @@
       <recent name="D:\Documents\Work\real-estate\src\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Work\real-estate\src\views\shared" />
       <recent name="D:\Documents\Work\real-estate\src\public\javascripts" />
       <recent name="D:\Documents\Work\real-estate\src\public\stylesheets" />
       <recent name="D:\Documents\Work\real-estate\src" />
@@ -271,7 +101,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.lint:fix">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -332,9 +162,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.lint:fix" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.lint:fix" />
         <item itemvalue="npm.lint" />
       </list>
     </recent_temporary>
@@ -365,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574304454388</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added asset files and home page">
+      <created>1574331577840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574331577840</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,6 +212,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Express App Setup" />
     <MESSAGE value="converted js files to ts and moved all code files into src folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="converted js files to ts and moved all code files into src folder" />
+    <MESSAGE value="added asset files and home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added asset files and home page" />
   </component>
 </project>

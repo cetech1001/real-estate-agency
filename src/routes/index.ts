@@ -5,7 +5,7 @@ const router = Router();
 
 /* GET home page. */
 router.get('/', (req: Request, res: Response) => {
-  res.render('index', { title: 'Express' });
+  res.render('home', { title: 'North Cyprus Real Estate' });
 });
 
 export default router;
