@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/error/404.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/error/500.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/admin/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/agent/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/admin/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/agent-listings.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/agent-sidebar.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/grid-view.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/list-view.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/sidebar.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/single.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/error.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/logo-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/images/logo-blue.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/images/logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/images/logo-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/shared/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/header.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/shared/menu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/menu.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,17 +68,18 @@
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Documents\Work\real-estate\node_modules\prettier" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.eslint.settings.ESLintSettingsPage" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="D:\Documents\Work\real-estate\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\Work\real-estate\src\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Work\real-estate\src\routes\agent" />
       <recent name="D:\Documents\Work\real-estate\src\views\shared" />
       <recent name="D:\Documents\Work\real-estate\src\public\javascripts" />
       <recent name="D:\Documents\Work\real-estate\src\public\stylesheets" />
       <recent name="D:\Documents\Work\real-estate\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Work\real-estate\src\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -162,6 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574303790153</updated>
       <workItem from="1574303791385" duration="5250000" />
+      <workItem from="1574518871941" duration="2891000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -198,11 +210,29 @@
       <option name="project" value="LOCAL" />
       <updated>1574338879779</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added 404 page">
+      <created>1574341881369</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574341881369</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -211,6 +241,7 @@
     <MESSAGE value="added asset files and home page" />
     <MESSAGE value="modified home page and shared files" />
     <MESSAGE value="designed the website" />
-    <option name="LAST_COMMIT_MESSAGE" value="designed the website" />
+    <MESSAGE value="added 404 page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 404 page" />
   </component>
 </project>
