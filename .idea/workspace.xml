@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/admin/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/agent/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/admin/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/agent-listings.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/agent-sidebar.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/grid-view.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/list-view.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/sidebar.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/single.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/agents/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/dashboard/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/messages.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/profile.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/properties/add.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/properties/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/reviews/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/shared/footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/shared/header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/dashboard/shared/sidebar.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/logo-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/images/logo-blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/images/logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/images/logo-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/stylesheets/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/stylesheets/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/admin/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/agent/index.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/shared/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/shared/menu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/menu.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/admin/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/booking-requests.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,11 +73,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Work\real-estate\src\routes\agents" />
+      <recent name="D:\Documents\Work\real-estate\src\routes\dashboard" />
+      <recent name="D:\Documents\Work\real-estate\src\views\dashboard" />
       <recent name="D:\Documents\Work\real-estate\src\routes\agent" />
       <recent name="D:\Documents\Work\real-estate\src\views\shared" />
-      <recent name="D:\Documents\Work\real-estate\src\public\javascripts" />
-      <recent name="D:\Documents\Work\real-estate\src\public\stylesheets" />
-      <recent name="D:\Documents\Work\real-estate\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\Work\real-estate\src\public" />
@@ -173,7 +174,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574303790153</updated>
       <workItem from="1574303791385" duration="5250000" />
-      <workItem from="1574518871941" duration="2891000" />
+      <workItem from="1574518871941" duration="9137000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -217,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574341881369</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="created agents pages and routes">
+      <created>1574521981466</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574521981466</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +250,7 @@
     <MESSAGE value="modified home page and shared files" />
     <MESSAGE value="designed the website" />
     <MESSAGE value="added 404 page" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 404 page" />
+    <MESSAGE value="created agents pages and routes" />
+    <option name="LAST_COMMIT_MESSAGE" value="created agents pages and routes" />
   </component>
 </project>

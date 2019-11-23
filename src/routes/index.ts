@@ -1,8 +1,8 @@
 import { Request, Response, Router } from 'express';
 
 import listingsRouter from './listings';
-import adminRouter from './admin';
-import agentRouter from './agent';
+import dashboardRouter from './dashboard';
+import agentsRouter from './agents';
 
 
 const router = Router();
@@ -23,16 +23,13 @@ router.get('/faq', (req: Request, res: Response) => {
   res.render('faq', { title: 'Frequently Asked Questions' });
 });
 
-router.get('/agents', (req: Request, res: Response) => {
-  res.render('agents', { title: 'Agents' });
-});
-
-router.get('/agents/:id', (req: Request, res: Response) => {
-  res.render('agents/single', { title: 'Single Agent' });
+router.get('/logout', (req, res) => {
+  res.redirect('/');
 });
 
 router.use('/listings', listingsRouter);
-router.use('/admin', adminRouter);
-router.use('/agent', agentRouter);
+router.use('/agents', agentsRouter);
+router.use('/agent', (req, res, next) => { res.locals.role = 'agent'; next(); }, dashboardRouter);
+router.use('/admin', (req, res, next) => { res.locals.role = 'admin'; next(); }, dashboardRouter);
 
 export default router;
