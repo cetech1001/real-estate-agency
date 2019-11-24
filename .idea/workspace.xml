@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/about/includes/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/about/includes/about.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/about/includes/promo.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/about/includes/promo.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/includes/hero.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/includes/hero.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/includes/promo.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/includes/promo.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/shared/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/footer.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -140,10 +144,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.lint:fix" />
       </list>
     </recent_temporary>
@@ -159,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1574303790153</updated>
       <workItem from="1574303791385" duration="5250000" />
-      <workItem from="1574518871941" duration="9942000" />
+      <workItem from="1574518871941" duration="10045000" />
+      <workItem from="1574603895005" duration="1349000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -217,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574550897245</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed linting errors">
+      <created>1574595009482</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574595009482</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +240,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -244,6 +258,7 @@
     <MESSAGE value="added 404 page" />
     <MESSAGE value="created agents pages and routes" />
     <MESSAGE value="designed the dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="designed the dashboard" />
+    <MESSAGE value="fixed linting errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed linting errors" />
   </component>
 </project>
