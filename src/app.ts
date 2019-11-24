@@ -8,7 +8,6 @@ import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
 
 import indexRouter from './routes';
-import logger from './lib/logger';
 
 const app = express();
 
