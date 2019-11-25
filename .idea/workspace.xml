@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/about/includes/about.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/about/includes/about.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/about/includes/promo.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/about/includes/promo.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/includes/hero.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/includes/hero.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/home/includes/promo.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/includes/promo.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/shared/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/footer.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,15 +56,15 @@
     <property name="ts.external.directory.path" value="D:\Documents\Work\real-estate\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Work\real-estate\src\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\Work\real-estate\src\routes\agents" />
       <recent name="D:\Documents\Work\real-estate\src\routes\dashboard" />
       <recent name="D:\Documents\Work\real-estate\src\views\dashboard" />
       <recent name="D:\Documents\Work\real-estate\src\routes\agent" />
       <recent name="D:\Documents\Work\real-estate\src\views\shared" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\Work\real-estate\src\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.lint:fix">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -136,19 +131,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.dev" />
       <item itemvalue="npm.build" />
-      <item itemvalue="npm.start" />
+      <item itemvalue="npm.dev" />
       <item itemvalue="npm.lint" />
       <item itemvalue="npm.lint:fix" />
+      <item itemvalue="npm.start" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.lint:fix" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
-        <item itemvalue="npm.lint:fix" />
       </list>
     </recent_temporary>
   </component>
