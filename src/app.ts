@@ -6,10 +6,18 @@ import createError, { HttpError } from 'http-errors';
 import path from 'path';
 import cookieParser from 'cookie-parser';
 import morgan from 'morgan';
+import connectMongo from 'connect-mongo';
+import session from 'express-session';
+import mongoose from 'mongoose';
 
 import indexRouter from './routes';
+import config from './config';
+import auth from './lib/auth';
+import setup from './middlewares/setup';
+import globals from './middlewares/globals';
 
 const app = express();
+const MongoStore = connectMongo(session);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -18,6 +26,16 @@ app.set('view engine', 'ejs');
 app.use(morgan('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
+app.use(session({
+  resave: true,
+  saveUninitialized: false,
+  secret: config.sessionSecret as string,
+  store: new MongoStore({ mongooseConnection: mongoose.connection }),
+}));
+app.use(auth.initialize);
+app.use(auth.session);
+app.use(setup);
+app.use(globals);
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 

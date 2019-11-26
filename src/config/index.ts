@@ -20,4 +20,5 @@ export default {
   database: {
     uri: getMongoDBURI(),
   },
+  sessionSecret: process.env.SESSION_SECRET,
 };

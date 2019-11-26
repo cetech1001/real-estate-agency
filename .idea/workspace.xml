@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/config/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/auth.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/db.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middlewares/globals.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middlewares/setup.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/alerts.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bin/www.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/www.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/index.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,15 +61,15 @@
     <property name="ts.external.directory.path" value="D:\Documents\Work\real-estate\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\Work\real-estate\src\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\Work\real-estate\src\routes\agents" />
       <recent name="D:\Documents\Work\real-estate\src\routes\dashboard" />
       <recent name="D:\Documents\Work\real-estate\src\views\dashboard" />
       <recent name="D:\Documents\Work\real-estate\src\routes\agent" />
       <recent name="D:\Documents\Work\real-estate\src\views\shared" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Work\real-estate\src\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -169,7 +166,7 @@
       <workItem from="1574518871941" duration="10045000" />
       <workItem from="1574603895005" duration="1349000" />
       <workItem from="1574705965652" duration="1246000" />
-      <workItem from="1574771022059" duration="2641000" />
+      <workItem from="1574771022059" duration="3781000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -248,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574771203897</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="setup database, user model and interface as well as passport for auth">
+      <created>1574773889152</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1574773889152</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +283,7 @@
     <MESSAGE value="designed the dashboard" />
     <MESSAGE value="fixed linting errors" />
     <MESSAGE value="only files in the src folder are compiled" />
-    <option name="LAST_COMMIT_MESSAGE" value="only files in the src folder are compiled" />
+    <MESSAGE value="setup database, user model and interface as well as passport for auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup database, user model and interface as well as passport for auth" />
   </component>
 </project>
