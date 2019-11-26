@@ -160,6 +160,7 @@
       <workItem from="1574303791385" duration="5250000" />
       <workItem from="1574518871941" duration="10045000" />
       <workItem from="1574603895005" duration="1349000" />
+      <workItem from="1574705965652" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -224,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574595009482</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed linting errors">
+      <created>1574706060107</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574706060107</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
