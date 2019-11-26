@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/middlewares/globals.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middlewares/setup.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/alerts.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/javascripts/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/javascripts/plugin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/agents/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/agents/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/listings/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/listings/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/alerts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/alerts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/shared/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/header.ejs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,7 +167,7 @@
       <workItem from="1574518871941" duration="10045000" />
       <workItem from="1574603895005" duration="1349000" />
       <workItem from="1574705965652" duration="1246000" />
-      <workItem from="1574771022059" duration="3781000" />
+      <workItem from="1574771022059" duration="8643000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -252,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574773889152</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="setup express session middleware">
+      <created>1574774840431</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1574774840431</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +292,7 @@
     <MESSAGE value="fixed linting errors" />
     <MESSAGE value="only files in the src folder are compiled" />
     <MESSAGE value="setup database, user model and interface as well as passport for auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup database, user model and interface as well as passport for auth" />
+    <MESSAGE value="setup express session middleware" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup express session middleware" />
   </component>
 </project>

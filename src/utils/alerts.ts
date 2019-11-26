@@ -20,3 +20,14 @@ export function setSuccessMessage(req: Request, message: string): void {
   // @ts-ignore
   req.session.messages.success = message;
 }
+
+export function getSessionAlerts(req: Request): { success: string; errors: string[] } {
+  return {
+    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+    // @ts-ignore
+    success: req.session.messages.success,
+    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+    // @ts-ignore
+    errors: req.session.messages.errors,
+  };
+}
