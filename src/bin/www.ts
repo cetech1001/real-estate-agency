@@ -8,6 +8,8 @@ import debug from 'debug';
 import http from 'http';
 import app from '../app';
 import logger from '../lib/logger';
+import config from '../config';
+import db from '../lib/db';
 
 debug('real-estate:server');
 
@@ -92,6 +94,14 @@ function onListening(): void {
  * Listen on provided port, on all network interfaces.
  */
 
-server.listen(port);
+db.connect(config.database.uri)
+  .then(() => {
+    server.listen(port);
+    logger.info('Database connected');
+  })
+  .catch((reason) => {
+    logger.error(reason);
+  });
+
 server.on('error', onError);
 server.on('listening', onListening);

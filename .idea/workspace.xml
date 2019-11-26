@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/config/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/db.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/models/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bin/www.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/bin/www.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.lint:fix">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -139,8 +147,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.lint:fix" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.lint:fix" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.lint" />
@@ -161,6 +169,7 @@
       <workItem from="1574518871941" duration="10045000" />
       <workItem from="1574603895005" duration="1349000" />
       <workItem from="1574705965652" duration="1246000" />
+      <workItem from="1574771022059" duration="2641000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -232,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574706060107</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="only files in the src folder are compiled">
+      <created>1574771203896</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574771203897</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +278,7 @@
     <MESSAGE value="created agents pages and routes" />
     <MESSAGE value="designed the dashboard" />
     <MESSAGE value="fixed linting errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed linting errors" />
+    <MESSAGE value="only files in the src folder are compiled" />
+    <option name="LAST_COMMIT_MESSAGE" value="only files in the src folder are compiled" />
   </component>
 </project>
