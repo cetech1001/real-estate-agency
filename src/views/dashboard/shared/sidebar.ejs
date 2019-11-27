@@ -1,6 +1,6 @@
 <aside class="menu-sidebar js-right-sidebar d-block" style="overflow-y: hidden">
     <div class="logo">
-        <a href="/<%= role %>">
+        <a href="/<%= user.role %>">
             <img src="/images/logo-blue.png">
         </a>
     </div>
@@ -8,34 +8,34 @@
         <nav class="navbar-sidebar2">
             <ul class="list-unstyled navbar__list">
                 <li>
-                    <a class="active" href="/<%= role %>">
+                    <a class="active" href="/<%= user.role %>">
                         <i class="ion-ios-gear-outline"></i>Dashboard
                     </a>
                 </li>
-                <% if(role === 'agent') {%>
+                <% if(user.role === 'agent') {%>
                     <li>
-                        <a href="/<%= role %>/messages">
+                        <a href="/<%= user.role %>/messages">
                             <i class="ion-ios-email-outline"></i>Messages</a>
                         <span class="inbox-num pending">3</span>
                     </li>
                 <%}%>
                 <li class="has-sub">
                     <a class="js-arrow" href="#">
-                        <i class="ion-social-buffer-outline"></i><%= role === 'agent' ? 'My ' : '' %>Properties
+                        <i class="ion-social-buffer-outline"></i><%= user.role === 'agent' ? 'My ' : '' %>Properties
                     </a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">
                         <li>
-                            <a href="/<%= role %>/properties/active">Active</a>
+                            <a href="/<%= user.role %>/properties/active">Active</a>
                             <span class="inbox-num active">4</span>
                         </li>
                         <li>
-                            <a href="/<%= role %>/properties/pending">Pending</a>
+                            <a href="/<%= user.role %>/properties/pending">Pending</a>
                             <span class="inbox-num pending">1</span>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/<%= role %>/booking-requests">
+                    <a href="/<%= user.role %>/booking-requests">
                         <i class="ion-ios-copy-outline"></i>Booking Requests</a>
                 </li>
                 <li class="has-sub">
@@ -44,23 +44,23 @@
                     </a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">
                         <li>
-                            <a href="/<%= role %>/reviews/approved">
+                            <a href="/<%= user.role %>/reviews/approved">
                                 Approved Reviews</a>
                             <span class="inbox-num active">6</span>
                         </li>
                         <li>
-                            <a href="/<%= role %>/reviews/pending">
+                            <a href="/<%= user.role %>/reviews/pending">
                                 Pending reviews</a>
                             <span class="inbox-num pending">8</span>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/<%= role %>/properties/add">
+                    <a href="/<%= user.role %>/properties/add">
                         <i class="ion-ios-plus-outline"></i>Add Property</a>
                 </li>
                 <li>
-                    <a href="/<%= role %>/profile">
+                    <a href="/<%= user.role %>/profile">
                         <i class="ion-ios-person-outline"></i>My profile</a>
                 </li>
                 <li>

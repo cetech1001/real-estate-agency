@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/error-handlers.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/public/javascripts/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/javascripts/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/agents/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/agents/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/listings/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/listings/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/alerts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/alerts.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/shared/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/shared/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/shared/header.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/dashboard/shared/sidebar.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/shared/sidebar.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/shared/auth-modal.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/auth-modal.ejs" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,8 +38,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
@@ -58,7 +62,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="D:\Documents\Work\real-estate\node_modules\prettier" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.eslint.settings.ESLintSettingsPage" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\Documents\Work\real-estate\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -72,18 +76,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Documents\Work\real-estate\src\public" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -153,6 +145,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -167,7 +171,9 @@
       <workItem from="1574518871941" duration="10045000" />
       <workItem from="1574603895005" duration="1349000" />
       <workItem from="1574705965652" duration="1246000" />
-      <workItem from="1574771022059" duration="8643000" />
+      <workItem from="1574771022059" duration="8837000" />
+      <workItem from="1574831971968" duration="82000" />
+      <workItem from="1574832072039" duration="1437000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -260,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574774840431</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="setup view for session alerts">
+      <created>1574779833998</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574779833998</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +306,33 @@
     <MESSAGE value="only files in the src folder are compiled" />
     <MESSAGE value="setup database, user model and interface as well as passport for auth" />
     <MESSAGE value="setup express session middleware" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup express session middleware" />
+    <MESSAGE value="setup view for session alerts" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup view for session alerts" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1574833533766">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1574833533766" />
+    <state width="1366" height="174" key="GridCell.Tab.0.bottom" timestamp="1574832116254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1366" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1574832116254" />
+    <state width="1366" height="174" key="GridCell.Tab.0.center" timestamp="1574832116254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1366" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1574832116254" />
+    <state width="1366" height="174" key="GridCell.Tab.0.left" timestamp="1574832116253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1366" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1574832116253" />
+    <state width="1366" height="174" key="GridCell.Tab.0.right" timestamp="1574832116254">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1366" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1574832116254" />
+    <state x="278" y="54" key="SettingsEditor" timestamp="1574832053259">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="278" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1574832053259" />
   </component>
 </project>
