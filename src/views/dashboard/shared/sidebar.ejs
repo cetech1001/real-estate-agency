@@ -1,6 +1,6 @@
 <aside class="menu-sidebar js-right-sidebar d-block" style="overflow-y: hidden">
     <div class="logo">
-        <a href="/<%= user.role %>">
+        <a href="/dashboard">
             <img src="/images/logo-blue.png">
         </a>
     </div>
@@ -8,13 +8,13 @@
         <nav class="navbar-sidebar2">
             <ul class="list-unstyled navbar__list">
                 <li>
-                    <a class="active" href="/<%= user.role %>">
+                    <a class="active" href="/dashboard">
                         <i class="ion-ios-gear-outline"></i>Dashboard
                     </a>
                 </li>
                 <% if(user.role === 'agent') {%>
                     <li>
-                        <a href="/<%= user.role %>/messages">
+                        <a href="/dashboard/messages">
                             <i class="ion-ios-email-outline"></i>Messages</a>
                         <span class="inbox-num pending">3</span>
                     </li>
@@ -25,17 +25,17 @@
                     </a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">
                         <li>
-                            <a href="/<%= user.role %>/properties/active">Active</a>
+                            <a href="/dashboard/properties/active">Active</a>
                             <span class="inbox-num active">4</span>
                         </li>
                         <li>
-                            <a href="/<%= user.role %>/properties/pending">Pending</a>
+                            <a href="/dashboard/properties/pending">Pending</a>
                             <span class="inbox-num pending">1</span>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/<%= user.role %>/booking-requests">
+                    <a href="/dashboard/booking-requests">
                         <i class="ion-ios-copy-outline"></i>Booking Requests</a>
                 </li>
                 <li class="has-sub">
@@ -44,23 +44,23 @@
                     </a>
                     <ul class="list-unstyled navbar__sub-list js-sub-list">
                         <li>
-                            <a href="/<%= user.role %>/reviews/approved">
+                            <a href="/dashboard/reviews/approved">
                                 Approved Reviews</a>
                             <span class="inbox-num active">6</span>
                         </li>
                         <li>
-                            <a href="/<%= user.role %>/reviews/pending">
+                            <a href="/dashboard/reviews/pending">
                                 Pending reviews</a>
                             <span class="inbox-num pending">8</span>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/<%= user.role %>/properties/add">
+                    <a href="/dashboard/properties/add">
                         <i class="ion-ios-plus-outline"></i>Add Property</a>
                 </li>
                 <li>
-                    <a href="/<%= user.role %>/profile">
+                    <a href="/dashboard/profile">
                         <i class="ion-ios-person-outline"></i>My profile</a>
                 </li>
                 <li>

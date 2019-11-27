@@ -1,4 +1,5 @@
 import { Router } from 'express';
+import { agent } from '../../middlewares/auth';
 
 const router = Router();
 
@@ -6,7 +7,7 @@ router.get('/', (req, res) => {
   res.render('dashboard');
 });
 
-router.get('/messages', (req, res) => {
+router.get('/messages', agent, (req, res) => {
   res.render('dashboard/messages');
 });
 

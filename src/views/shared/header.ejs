@@ -14,12 +14,14 @@
     <link href="/stylesheets/style.css" rel="stylesheet">
 
     <title><%= title %></title>
+
     <script src="/javascripts/jquery.min.js"></script>
     <script src="/javascripts/popper.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
 </head>
 
 <body>
+
 <% if (errors.length > 0) {%>
     <% errors.forEach(error => { %>
         <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="backdrop-filter: opacity(1)">
@@ -54,7 +56,6 @@
     <script>
         $(() => {
             const toast = $(".toast");
-
             toast.toast({ delay: 10000 });
             toast.toast('show');
         });

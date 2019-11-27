@@ -1,27 +1,69 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="en-US">
 <head>
-    <!-- Metas -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="LionCoders">
-    <!-- Links -->
+
     <link rel="icon" type="image/png" href="/images/logo-blue.png">
-    <!-- google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;display=swap" rel="stylesheet">
-    <!-- Plugins CSS -->
+
+    <link rel="stylesheet" href="/stylesheets/bootstrap.min.css">
+    <link href="/stylesheets/google-fonts.css" rel="stylesheet">
     <link href="/stylesheets/plugin.css" rel="stylesheet">
-    <!-- Perfect scrollbar CSS-->
     <link href="/stylesheets/perfect-scrollbar.css" rel="stylesheet">
-    <!-- style CSS -->
     <link href="/stylesheets/style.css" rel="stylesheet">
-    <!-- Dashboard CSS -->
     <link href="/stylesheets/dashboard.css" rel="stylesheet">
-    <!-- Document Title -->
-    <title><%= user.role.toUpperCase() %></title>
+
+    <title>Dashboard</title>
+
+    <script src="/javascripts/jquery.min.js"></script>
+    <script src="/javascripts/popper.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
 </head>
 
 <body>
+
+<% if (errors.length > 0) {%>
+    <% errors.forEach(error => { %>
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="backdrop-filter: opacity(1)">
+            <div class="toast-header">
+                <strong class="mr-auto text-danger">Error!</strong>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="toast-body bg-danger text-white" style="backdrop-filter: opacity(1)">
+                <%= error %>
+            </div>
+        </div>
+    <%})%>
+<%}%>
+
+<% if (success !== '') {%>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="backdrop-filter: opacity(1)">
+        <div class="toast-header">
+            <strong class="mr-auto text-success">Success!</strong>
+            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="toast-body bg-success text-white" style="backdrop-filter: opacity(1)">
+            Heads up, toasts will stack automatically
+        </div>
+    </div>
+<%}%>
+
+<% if (errors.length > 0 || success !== '') {%>
+    <script>
+        $(() => {
+            const toast = $(".toast");
+            toast.toast({ delay: 10000 });
+            toast.toast('show');
+        });
+    </script>
+<%}%>
+
 <div class="page-wrapper">
     <% include sidebar.ejs %>
     <div class="dash-content-wrap">
