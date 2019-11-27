@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/controllers/user.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middlewares/auth.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/javascripts/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/javascripts/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/javascripts/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/public/stylesheets/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/public/stylesheets/plugin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/stylesheets/plugin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/agents/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/agents/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/listings/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/listings/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/shared/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/header.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +176,7 @@
       <workItem from="1574705965652" duration="1246000" />
       <workItem from="1574771022059" duration="8837000" />
       <workItem from="1574831971968" duration="82000" />
-      <workItem from="1574832072039" duration="2644000" />
+      <workItem from="1574832072039" duration="3280000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -279,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574833547095</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="password hash now being stored in the database instead of plain text, and user controller created">
+      <created>1574834971683</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1574834971684</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,13 +325,14 @@
     <MESSAGE value="setup express session middleware" />
     <MESSAGE value="setup view for session alerts" />
     <MESSAGE value="implemented authentication and authorization" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemented authentication and authorization" />
+    <MESSAGE value="password hash now being stored in the database instead of plain text, and user controller created" />
+    <option name="LAST_COMMIT_MESSAGE" value="password hash now being stored in the database instead of plain text, and user controller created" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1574833545542">
+    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1574834969545">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1574833545542" />
+    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1574834969545" />
     <state width="1366" height="174" key="GridCell.Tab.0.bottom" timestamp="1574834798859">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
