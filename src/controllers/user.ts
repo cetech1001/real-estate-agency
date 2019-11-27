@@ -1,5 +1,4 @@
 import { NextFunction, Request, Response } from 'express';
-import passport from 'passport';
 import { addErrorMessage } from '../utils/alerts';
 import User from '../models/user';
 import { serverErrorHandler } from '../utils/error-handlers';

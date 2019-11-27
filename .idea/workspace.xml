@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/dashboard/shared/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/shared/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/dashboard/shared/sidebar.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/dashboard/shared/sidebar.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/shared/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/shared/menu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/menu.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,7 @@
       <recent name="D:\Documents\Work\real-estate\src\views\shared" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -137,10 +133,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
-        <item itemvalue="npm.lint:fix" />
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.lint:fix" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.lint" />
       </list>
     </recent_temporary>
@@ -173,7 +169,7 @@
       <workItem from="1574705965652" duration="1246000" />
       <workItem from="1574771022059" duration="8837000" />
       <workItem from="1574831971968" duration="82000" />
-      <workItem from="1574832072039" duration="4253000" />
+      <workItem from="1574832072039" duration="4547000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -294,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574835638175</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="logo hides when session alerts appear">
+      <created>1574836534776</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1574836534776</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,29 +335,30 @@
     <MESSAGE value="implemented authentication and authorization" />
     <MESSAGE value="password hash now being stored in the database instead of plain text, and user controller created" />
     <MESSAGE value="made all asset files available offline" />
-    <option name="LAST_COMMIT_MESSAGE" value="made all asset files available offline" />
+    <MESSAGE value="logo hides when session alerts appear" />
+    <option name="LAST_COMMIT_MESSAGE" value="logo hides when session alerts appear" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1574835635996">
+    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1574836628374">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1574835635996" />
-    <state width="1366" height="174" key="GridCell.Tab.0.bottom" timestamp="1574834798859">
+    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1574836628374" />
+    <state width="1515" height="189" key="GridCell.Tab.0.bottom" timestamp="1574836619096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1366" height="174" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1574834798859" />
-    <state width="1366" height="174" key="GridCell.Tab.0.center" timestamp="1574834798859">
+    <state width="1515" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1574836619096" />
+    <state width="1515" height="189" key="GridCell.Tab.0.center" timestamp="1574836619096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1366" height="174" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1574834798859" />
-    <state width="1366" height="174" key="GridCell.Tab.0.left" timestamp="1574834798859">
+    <state width="1515" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1574836619096" />
+    <state width="1515" height="189" key="GridCell.Tab.0.left" timestamp="1574836619095">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1366" height="174" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1574834798859" />
-    <state width="1366" height="174" key="GridCell.Tab.0.right" timestamp="1574834798859">
+    <state width="1515" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1574836619095" />
+    <state width="1515" height="189" key="GridCell.Tab.0.right" timestamp="1574836619096">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1366" height="174" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1574834798859" />
+    <state width="1515" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1574836619096" />
     <state x="278" y="54" key="SettingsEditor" timestamp="1574832053259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

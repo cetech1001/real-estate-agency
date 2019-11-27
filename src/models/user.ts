@@ -1,7 +1,6 @@
 import { model, Schema } from 'mongoose';
 import emailValidator from 'email-validator';
 import bcrypt from 'bcryptjs';
-import logger from "../lib/logger";
 
 const schema = new Schema({
   firstName: {
