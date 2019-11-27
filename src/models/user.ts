@@ -1,6 +1,7 @@
 import { model, Schema } from 'mongoose';
 import emailValidator from 'email-validator';
 import bcrypt from 'bcryptjs';
+import logger from "../lib/logger";
 
 const schema = new Schema({
   firstName: {
@@ -23,6 +24,7 @@ const schema = new Schema({
   role: {
     type: String,
     enum: ['agent', 'admin'],
+    default: 'agent',
   },
   phoneNumber: {
     type: String,
@@ -35,7 +37,7 @@ const schema = new Schema({
   youtube: String,
 });
 
-schema.pre('save', async function hashPassword(next) {
+schema.pre('save', function hashPassword(next) {
   // eslint-disable-next-line @typescript-eslint/no-this-alias
   const user = this;
   if (!user.isModified('password')) {
@@ -43,15 +45,8 @@ schema.pre('save', async function hashPassword(next) {
   }
   // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
   // @ts-ignore
-  return bcrypt.hash(user.password, 12, (err, hash) => {
-    if (err) {
-      return next(err);
-    }
-    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-    // @ts-ignore
-    user.password = hash;
-    return next();
-  });
+  user.password = bcrypt.hashSync(user.password, 12);
+  return next();
 });
 
 // eslint-disable-next-line max-len
