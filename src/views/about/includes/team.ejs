@@ -10,83 +10,30 @@
             <div class="col-md-12">
                 <div class="team-wrapper swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="single-team-member v2">
-                                <a href="/agents/single/1"><img src="/images/agents/agent_1.jpg" alt="Image"></a>
-                                <div class="single-team-info">
-                                    <h4><a href="/agents/single/1">Tony Stark</a></h4>
-                                    <span>Real Estate Agent</span>
-                                    <div class="contact-info">
-                                        <div class="icon">
-                                            <i class="fas fa-phone-alt"></i>
+                        <% agents.forEach(agent => {%>
+                            <div class="swiper-slide">
+                                <div class="single-team-member v2">
+                                    <a href="/agents/single/1"><img src="/images/agents/agent_1.jpg" alt="Image"></a>
+                                    <div class="single-team-info">
+                                        <h4><a href="/agents/single/1"><%= formatAgentName(agent) %></a></h4>
+                                        <span>Real Estate Agent</span>
+                                        <div class="contact-info">
+                                            <% if (agent.phoneNumber) {%>
+                                                <div class="icon">
+                                                    <i class="fas fa-phone-alt"></i>
+                                                </div>
+                                                <div class="text"><a href="tel:<%= agent.phoneNumber %>"><%= agent.phoneNumber %></a></div>
+                                            <%} else {%>
+                                                <div class="icon">
+                                                    <i class="fas fa-envelope"></i>
+                                                </div>
+                                                <div class="text"><a href="mailto:<%= agent.email %>"><%= agent.email %></a></div>
+                                            <%}%>
                                         </div>
-                                        <div class="text"><a href="tel:44078767595">+44 765 342 312</a></div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="single-team-member v2">
-                                <a href="/agents/single/1">
-                                    <img src="/images/agents/agent_2.jpg" alt="Image">
-                                </a>
-                                <div class="single-team-info">
-                                    <h4><a href="/agents/single/1">Bob Haris</a></h4>
-                                    <span>Sales Executive</span>
-                                    <div class="contact-info">
-                                        <div class="icon">
-                                            <i class="fas fa-phone-alt"></i>
-                                        </div>
-                                        <div class="text"><a href="tel:44078767595">+44 078 767 595</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="single-team-member v2">
-                                <a href="/agents/single/1"><img src="/images/agents/agent_3.jpg" alt="Image"></a>
-                                <div class="single-team-info">
-                                    <h4><a href="/agents/single/1">Jim Karry</a></h4>
-                                    <span>Real Estate Broker</span>
-                                    <div class="contact-info">
-                                        <div class="icon">
-                                            <i class="fas fa-phone-alt"></i>
-                                        </div>
-                                        <div class="text"><a href="tel:44055847538">+44 055 847 538</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="single-team-member v2">
-                                <a href="/agents/single/1"><img src="/images/agents/agent_4.jpg" alt="Image"></a>
-                                <div class="single-team-info">
-                                    <h4><a href="/agents/single/1">Alfred Jhon</a></h4>
-                                    <span>Sales Executive</span>
-                                    <div class="contact-info">
-                                        <div class="icon">
-                                            <i class="fas fa-phone-alt"></i>
-                                        </div>
-                                        <div class="text"><a href="tel:44055847538">+44 078 767 598</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="single-team-member v2">
-                                <a href="/agents/single/1"><img src="/images/agents/agent_8.jpg" alt="Image"></a>
-                                <div class="single-team-info">
-                                    <h4><a href="/agents/single/1">Boris Baker</a></h4>
-                                    <span>Real Estate Agent</span>
-                                    <div class="contact-info">
-                                        <div class="icon">
-                                            <i class="fas fa-phone-alt"></i>
-                                        </div>
-                                        <div class="text"><a href="tel:44321445 678">+44 321 445 678</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <%})%>
                     </div>
                     <div class="slider-btn v2 team_next"><i class="lnr lnr-arrow-right"></i></div>
                     <div class="slider-btn v2 team_prev"><i class="lnr lnr-arrow-left"></i></div>

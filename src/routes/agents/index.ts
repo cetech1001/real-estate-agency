@@ -3,6 +3,7 @@ import { getSessionAlerts, resetSessionAlerts } from '../../utils/alerts';
 import User from '../../models/user';
 import { serverErrorHandler } from '../../utils/error-handlers';
 import { UserInterface } from '../../interfaces/user';
+import {formatAgentName} from "../../utils/formatters";
 
 const router = Router();
 
@@ -56,7 +57,9 @@ router.get('/:id', async (req, res) => {
     const agent = await User.findById(req.params.id);
     const alerts = getSessionAlerts(req);
     resetSessionAlerts(req);
-    res.render('agents/single', { title: 'Single Agent', ...alerts, agent });
+    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+    // @ts-ignore
+    res.render('agents/single', { title: formatAgentName(agent), ...alerts, agent });
   } catch (e) {
     serverErrorHandler(e, res);
   }

@@ -10,6 +10,8 @@ import {
 } from '../utils/alerts';
 import { authorized } from '../middlewares/auth';
 import UserController from '../controllers/user';
+import User from '../models/user';
+import { serverErrorHandler } from '../utils/error-handlers';
 
 
 const router = Router();
@@ -23,10 +25,15 @@ router.get('/', (req, res) => {
   res.render('home', { title: 'North Cyprus Real Estate', ...alerts });
 });
 
-router.get('/about', (req, res) => {
-  const alerts = getSessionAlerts(req);
-  resetSessionAlerts(req);
-  res.render('about', { title: 'About Us', ...alerts });
+router.get('/about', async (req, res) => {
+  try {
+    const agents = await User.find({ role: 'agent' });
+    const alerts = getSessionAlerts(req);
+    resetSessionAlerts(req);
+    res.render('about', { title: 'About Us', ...alerts, agents });
+  } catch (e) {
+    serverErrorHandler(e, res);
+  }
 });
 
 router.get('/contact', (req, res) => {
