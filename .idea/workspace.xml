@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/formatters.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/pagination.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/views/grid.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/views/list.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/single/includes/listings.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/single/includes/sidebar.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/agents/single/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/shared/widgets/categories.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/shared/widgets/contact.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/shared/widgets/filter.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/shared/widgets/recent.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/middlewares/globals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/globals.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/agents/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/agents/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/agent-listings.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/agent-sidebar.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/grid-view.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/list-view.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/sidebar.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/agents/includes/sidebar.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/pagination.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/agents/includes/pagination.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/agents/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/agents/index.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/agents/single.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/shared/menu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/menu.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +172,7 @@
       <workItem from="1574771022059" duration="8837000" />
       <workItem from="1574831971968" duration="82000" />
       <workItem from="1574832072039" duration="5190000" />
-      <workItem from="1575163606054" duration="5544000" />
+      <workItem from="1575163606054" duration="7336000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -327,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574836640136</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="worked on the agents view pages">
+      <created>1575169289193</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1575169289193</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,17 +353,18 @@
     <MESSAGE value="made all asset files available offline" />
     <MESSAGE value="logo hides when session alerts appear" />
     <MESSAGE value="fixed linting errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed linting errors" />
+    <MESSAGE value="worked on the agents view pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="worked on the agents view pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575165611061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575165611061" />
-    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1574836638738">
+    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1575169286934">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1574836638738" />
+    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1575169286934" />
     <state width="1515" height="189" key="GridCell.Tab.0.bottom" timestamp="1575163758818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

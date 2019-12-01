@@ -17,11 +17,7 @@
                         <div class="col-lg-4 col-sm-7 col-7"></div>
                         <div class="col-lg-5 col-sm-12">
                             <div class="item-element res-box  text-right sm-left">
-                                <%if(agents.lenth >= 3) {%>
-                                    <p>Showing <span>1-3 of <%= agents.length %></span> Agents</p>
-                                <%} else {%>
-                                    <p>Showing <span>1-<%= agents.length %> of <%= agents.length %></span> Agent <%= agents.length === 1 ? '' : 's' %></p>
-                                <%}%>
+                                <p>Showing <span><%= page.startIndex + 1 %> - <%= page.endIndex %> of <%= totalAgents %></span> Agent(s)</p>
                             </div>
                         </div>
                     </div>

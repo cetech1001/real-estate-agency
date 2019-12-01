@@ -4,7 +4,7 @@
             <div class="page-num text-center">
                 <ul>
                     <% for(let i = 1; i <= pages; i++) {%>
-                        <li class="<%= page === i ? 'active': '' %>"><a href="/agents?page=<%= i %>"><%= i %></a></li>
+                        <li class="<%= page.number === i ? 'active': '' %>"><a href="/agents?page=<%= i %>"><%= i %></a></li>
                     <%}%>
                     <!--<li><a href="#"><i class="lnr lnr-chevron-right"></i></a></li>-->
                 </ul>
