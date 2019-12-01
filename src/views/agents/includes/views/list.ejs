@@ -1,0 +1,56 @@
+<div id="list-view" class="tab-pane fade show active agent-list">
+    <% agents.forEach( agent => {%>
+        <div class="single-agent-box mb-30">
+            <div class="row">
+                <div class="col-md-5 col-sm-12">
+                    <div class="single-team-member agent-item">
+                        <img src="/images/agents/agent_1.jpg" alt="Image">
+                    </div>
+                </div>
+                <div class="col-md-7 col-sm-12">
+                    <div class="single-team-info">
+                        <div class="agent-content">
+                            <h4><a href="/agents/<%= agent._id %>"><%= formatAgentName(agent) %></a></h4>
+                            <span>Real Estate Agent</span>
+                            <ul class="list">
+                                <%if(agent.phoneNumber){%>
+                                    <li>
+                                        <div class="contact-info">
+                                            <div class="icon">
+                                                <i class="fas fa-phone-alt"></i>
+                                            </div>
+                                            <div class="text"><a href="tel:<%= agent.phoneNumber %>"><%= agent.phoneNumber %></a></div>
+                                        </div>
+                                    </li>
+                                <%}%>
+                                <li>
+                                    <div class="contact-info">
+                                        <div class="icon">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="text"><a href="mailto:<%= agent.email %>"><%= agent.email %></a></div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul class="social-buttons style2">
+                                <%if(agent.facebook){%>
+                                    <li><a href="<%= agent.facebook %>"><i class="fab fa-facebook-f"></i></a></li>
+                                <%}%>
+                                <%if(agent.twitter){%>
+                                    <li><a href="<%= agent.twitter %>"><i class="fab fa-twitter"></i></a></li>
+                                <%}%>
+                                <%if(agent.youtube){%>
+                                    <li><a href="<%= agent.youtube %>"><i class="fab fa-youtube"></i></a></li>
+                                <%}%>
+                                <%if(agent.instagram){%>
+                                    <li><a href="<%= agent.instagram %>"><i class="fab fa-instagram"></i></a></li>
+                                <%}%>
+                            </ul>
+                            <a href="/agents/<%= agent._id %>" class="agent-link">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <%})%>
+</div>

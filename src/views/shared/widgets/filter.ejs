@@ -1,0 +1,114 @@
+<div class="widget filter-widget">
+    <form class="hero__form v2 filter">
+        <div class="row">
+            <div class="col-xl-12 col-lg-4 col-sm-6 col-12 mb-3">
+                <select class="hero__form-input  custom-select">
+                    <option>Select Location </option>
+                    <option>New York</option>
+                </select>
+            </div>
+            <div class="col-xl-12 col-lg-4 col-sm-6 col-12 mb-3">
+                <select class="hero__form-input  custom-select">
+                    <option>Property Type</option>
+                    <option>Residential</option>
+                    <option>Commercial</option>
+                </select>
+            </div>
+            <div class="col-xl-12 col-lg-4 col-sm-6 col-12 mb-3">
+                <select class="hero__form-input  custom-select">
+                    <option>Max rooms</option>
+                    <% for (let i = 1; i <= 5; i++) {%>
+                        <option><%= i %></option>
+                    <%}%>
+                    <option>6+</option>
+                </select>
+            </div>
+            <div class="col-xl-12 col-lg-4 col-sm-6 col-12 mb-3">
+                <div class="filter-sub-menu style1 v1">
+                    <div class="dropdown-filter"><span>More Filters </span></div>
+                    <div class="explore__form-checkbox-list full-filter">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <select class="hero__form-input  custom-select  mb-20">
+                                    <option>Bed</option>
+                                    <% for (let i = 1; i <= 5; i++) {%>
+                                        <option><%= i %></option>
+                                    <%}%>
+                                    <option>6+</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6 col-md-12 pl-0">
+                                <select class="hero__form-input  custom-select  mb-20">
+                                    <option>Bath</option>
+                                    <% for (let i = 1; i <= 5; i++) {%>
+                                        <option><%= i %></option>
+                                    <%}%>
+                                    <option>6+</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <select class="hero__form-input  custom-select  mb-20">
+                                    <option>Agents</option>
+                                    <% agents.forEach(agent => {%>
+                                        <option><%= formatAgentName(agent) %></option>
+                                    <%})%>
+                                </select>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="filter-sub-area style1">
+                                    <div class="filter-title mb-20">
+                                        <p>Price : <span><input type="text" id="amount_two"></span></p>
+                                    </div>
+                                    <div id="slider-range_two" class="price-range mb-30">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="filter-checkbox mb-3">
+                                    <p>Sort By Features</p>
+                                    <ul>
+                                        <li>
+                                            <input id="check-a" type="checkbox" name="check">
+                                            <label for="check-a">Air Condition</label>
+                                        </li>
+                                        <li>
+                                            <input id="check-f" type="checkbox" name="check">
+                                            <label for="check-f">Swimming Pool</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="filter-checkbox">
+                                    <p>Sort By Ratings</p>
+                                    <% for (let i = 5; i > 0; i -= 0.5) {%>
+                                        <div>
+                                            <input id="check-<%= i %>" type="checkbox" name="check">
+                                            <label for="check-<%= i %>">
+                                            </label>
+                                            <div class="list-ratings">
+                                                <% if (i % 1 === 0){ %>
+                                                    <%for (let j = 0; j < i; j += 1){%>
+                                                        <span class="fas fa-star"></span>
+                                                    <%}%>
+                                                <%} else {%>
+                                                    <%for (let j = 0; j < Math.floor(i); j += 1){%>
+                                                        <span class="fas fa-star"></span>
+                                                    <%}%>
+                                                    <span class="fas fa-star-half-alt"></span>
+                                                <%}%>
+                                            </div>
+                                        </div>
+                                    <%}%>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-12 col-lg-4 col-sm-6 col-12">
+                <button class="btn v8" type="submit"> Search Property</button>
+            </div>
+        </div>
+    </form>
+</div>

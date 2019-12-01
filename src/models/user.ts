@@ -29,11 +29,13 @@ const schema = new Schema({
     type: String,
     maxlength: 15,
   },
+  description: String,
   facebook: String,
   twitter: String,
   instagram: String,
   skype: String,
   youtube: String,
+  image: String,
 });
 
 schema.pre('save', function hashPassword(next) {

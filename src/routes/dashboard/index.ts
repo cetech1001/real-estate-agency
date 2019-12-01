@@ -1,10 +1,13 @@
 import { Router } from 'express';
 import { agent } from '../../middlewares/auth';
+import { getSessionAlerts, resetSessionAlerts } from '../../utils/alerts';
 
 const router = Router();
 
 router.get('/', (req, res) => {
-  res.render('dashboard');
+  const alerts = getSessionAlerts(req);
+  resetSessionAlerts(req);
+  res.render('dashboard', { ...alerts });
 });
 
 router.get('/messages', agent, (req, res) => {

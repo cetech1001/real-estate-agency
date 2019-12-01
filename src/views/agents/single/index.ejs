@@ -1,0 +1,79 @@
+<% include ../../shared/header.ejs %>
+<% include ../../shared/breadcrumbs.ejs %>
+<div class="agent-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 order-xl-12 order-xl-2 order-2">
+                <div class="agent-details-wrapper">
+                    <div class="row mb-50">
+                        <div class="col-lg-5 col-md-6 col-sm-5">
+                            <img src="/images/agents/agent_1.jpg" alt="..." class="img-responsive">
+                        </div>
+                        <div class="col-lg-7 col-md-6 col-sm-7">
+                            <div class="agent-details">
+                                <h3><%= formatAgentName(agent) %></h3>
+                                <ul class="address-list">
+                                    <li>
+                                        <span>
+                                            Title:
+                                        </span>
+                                        Real estate Agent
+                                    </li>
+                                    <%if(agent.phoneNumber) {%>
+                                        <li>
+                                            <span>
+                                                Mobile:
+                                            </span>
+                                            <%= agent.phoneNumber %>
+                                        </li>
+                                    <%}%>
+                                    <li>
+                                        <span>
+                                            Email:
+                                        </span>
+                                        <%= agent.email %>
+                                    </li>
+                                    <%if(agent.skype){%>
+                                        <li>
+                                        <span>
+                                            Skype:
+                                        </span>
+                                            <%= agent.skype %>
+                                        </li>
+                                    <%}%>
+                                </ul>
+                                <ul class="social-buttons style1">
+                                    <%if(agent.facebook){%>
+                                        <li><a href="<%= agent.facebook %>"><i class="fab fa-facebook-f"></i></a></li>
+                                    <%}%>
+                                    <%if(agent.twitter){%>
+                                        <li><a href="<%= agent.twitter %>"><i class="fab fa-twitter"></i></a></li>
+                                    <%}%>
+                                    <%if(agent.youtube){%>
+                                        <li><a href="<%= agent.youtube %>"><i class="fab fa-youtube"></i></a></li>
+                                    <%}%>
+                                    <%if(agent.instagram){%>
+                                        <li><a href="<%= agent.instagram %>"><i class="fab fa-instagram"></i></a></li>
+                                    <%}%>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="agent-bio">
+                                <h3>About Me</h3>
+                                <p>
+                                    <%= agent.description %>
+                                </p>
+                            </div>
+                        </div>
+                        <% include includes/listings.ejs %>
+                    </div>
+                </div>
+            </div>
+            <% include includes/sidebar.ejs %>
+        </div>
+    </div>
+</div>
+<% include ../../shared/footer.ejs %>

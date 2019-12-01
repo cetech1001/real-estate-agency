@@ -2,8 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d1cf9c3-324c-43ff-bddc-ec52ee2fea1a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/controllers/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/formatters.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/pagination.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/views/grid.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/includes/views/list.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/single/includes/listings.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/single/includes/sidebar.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/agents/single/index.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/shared/widgets/categories.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/shared/widgets/contact.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/shared/widgets/filter.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/shared/widgets/recent.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/middlewares/globals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/middlewares/globals.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/agents/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/agents/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/dashboard/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/dashboard/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/agent-listings.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/agent-sidebar.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/grid-view.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/list-view.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/agents/includes/sidebar.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/agents/includes/sidebar.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/agents/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/agents/index.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/agents/single.ejs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/shared/menu.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/shared/menu.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +84,6 @@
     <property name="ts.external.directory.path" value="D:\Documents\Work\real-estate\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Documents\Work\real-estate\src\public" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Documents\Work\real-estate\src\routes\agents" />
       <recent name="D:\Documents\Work\real-estate\src\routes\dashboard" />
@@ -72,8 +91,11 @@
       <recent name="D:\Documents\Work\real-estate\src\routes\agent" />
       <recent name="D:\Documents\Work\real-estate\src\views\shared" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Documents\Work\real-estate\src\public" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -133,9 +155,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.lint:fix" />
-        <item itemvalue="npm.dev" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.lint" />
       </list>
@@ -169,7 +191,8 @@
       <workItem from="1574705965652" duration="1246000" />
       <workItem from="1574771022059" duration="8837000" />
       <workItem from="1574831971968" duration="82000" />
-      <workItem from="1574832072039" duration="4547000" />
+      <workItem from="1574832072039" duration="5190000" />
+      <workItem from="1575163606054" duration="5544000" />
     </task>
     <task id="LOCAL-00001" summary="Express App Setup">
       <created>1574303946673</created>
@@ -297,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574836534776</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fixed linting errors">
+      <created>1574836640136</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1574836640136</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +357,6 @@
     <MESSAGE value="added 404 page" />
     <MESSAGE value="created agents pages and routes" />
     <MESSAGE value="designed the dashboard" />
-    <MESSAGE value="fixed linting errors" />
     <MESSAGE value="only files in the src folder are compiled" />
     <MESSAGE value="setup database, user model and interface as well as passport for auth" />
     <MESSAGE value="setup express session middleware" />
@@ -336,32 +365,41 @@
     <MESSAGE value="password hash now being stored in the database instead of plain text, and user controller created" />
     <MESSAGE value="made all asset files available offline" />
     <MESSAGE value="logo hides when session alerts appear" />
-    <option name="LAST_COMMIT_MESSAGE" value="logo hides when session alerts appear" />
+    <MESSAGE value="fixed linting errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed linting errors" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1574836628374">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575165611061">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1574836628374" />
-    <state width="1515" height="189" key="GridCell.Tab.0.bottom" timestamp="1574836619096">
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575165611061" />
+    <state x="392" y="0" key="CommitChangelistDialog2" timestamp="1574836638738">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1574836619096" />
-    <state width="1515" height="189" key="GridCell.Tab.0.center" timestamp="1574836619096">
+    <state x="392" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1574836638738" />
+    <state width="1515" height="189" key="GridCell.Tab.0.bottom" timestamp="1575163758818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1574836619096" />
-    <state width="1515" height="189" key="GridCell.Tab.0.left" timestamp="1574836619095">
+    <state width="1515" height="189" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575163758818" />
+    <state width="1515" height="189" key="GridCell.Tab.0.center" timestamp="1575163758817">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1574836619095" />
-    <state width="1515" height="189" key="GridCell.Tab.0.right" timestamp="1574836619096">
+    <state width="1515" height="189" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575163758817" />
+    <state width="1515" height="189" key="GridCell.Tab.0.left" timestamp="1575163758816">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1574836619096" />
+    <state width="1515" height="189" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575163758816" />
+    <state width="1515" height="189" key="GridCell.Tab.0.right" timestamp="1575163758818">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="189" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575163758818" />
     <state x="278" y="54" key="SettingsEditor" timestamp="1574832053259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="278" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1574832053259" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1574836649639">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1574836649639" />
   </component>
 </project>
